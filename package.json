@@ -1,0 +1,31 @@
+{
+  "name": "render-into-ejs-loader",
+  "version": "0.1.0",
+  "description": "Webpack loader that injects the target's source into the given EJS template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kossnocorp/render-into-ejs-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "webpack-loader",
+    "ejs"
+  ],
+  "author": "Sasha Koss <koss@nocorp.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kossnocorp/render-into-ejs-loader/issues"
+  },
+  "homepage": "https://github.com/kossnocorp/render-into-ejs-loader#readme",
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  },
+  "peerDependencies": {
+    "ejs": "*"
+  }
+}
